@@ -1,13 +1,21 @@
+import java.util.Scanner;
 public class ComputeArea {
+
+   
+
    public static void main (String[]args){
-    double radius ; //dlcare radius
+   final double Pi =  3.14149;  
+    double radius ; //dlcare rakdius
     double area;
     double perimeter;
-    radius = 20; 
-    area = radius*radius*3.14159;
-    perimeter = 3.14159*2*radius;
-    System.out.println("The area for the circle of radius"+ radius + "is" + area);
+    Scanner input = new Scanner (System.in);
+    System.out.print("Enter the radius: ");
+    radius = input.nextDouble(); 
 
-    System.out.println("The perimeter for the circle of radius"+ radius + "is" + perimeter );
+    area = radius*radius* Pi ;
+    perimeter = Pi *2*radius;
+    System.out.println("The area for the circle of radius"+ radius + " is " + area);
+
+    System.out.println("The perimeter for the circle of radius"+ radius + " is " + perimeter );
    }
 }
