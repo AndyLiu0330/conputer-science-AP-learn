@@ -1,3 +1,5 @@
+
+
 public class solvefuction {
     public static void main(String[] args) {
         // double a = 1.0;
@@ -28,6 +30,15 @@ public class solvefuction {
         System.out.println(r1);
         System.out.println(r2);
         System.out.println(r1 == 1 && r2 == -4 ? "chatgpt you are so good man" : "no stop fix your code please");
+        int intR1 = (int) r1;
+        int intR2 = (int) r2;
+
+        System.out.println(intR1);
+        System.out.println(intR2);
+        
     }
+
+
+
 
 }
