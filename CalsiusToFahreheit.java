@@ -1,19 +1,15 @@
-import java.util.Scanner;  
-
-
+import java.util.Scanner;
 
 public class CalsiusToFahreheit {
-   public void CtoF(){
+   public void CtoF() {
 
-    Scanner input = new Scanner(System.in);
+      Scanner input = new Scanner(System.in);
 
+      System.out.print("Enter a degree in Calcus:");
+      double calsius = input.nextDouble();
 
-    System.out.print("Enter a degree in Calcus:");
-    double  calsius = input.nextDouble();
-
-    double fahrenheit = calsius * 9.0 / 5.0 + 32.0;
-    System.out.println("Calsius " + calsius + " is " + fahrenheit + " in fahrenhit");
-    input.close();  
+      double fahrenheit = calsius * 9.0 / 5.0 + 32.0;
+      System.out.println("Calsius " + calsius + " is " + fahrenheit + " in fahrenhit");
+      input.close();
    }
 }
-
