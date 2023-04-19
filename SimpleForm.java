@@ -30,8 +30,7 @@ public class SimpleForm extends JFrame implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        String name = nameTextField.getText();
-        String email = emailTextField.getText();
+   
 
         // 处理表单数据
         // ...
