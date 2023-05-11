@@ -1,0 +1,3 @@
+int 
+inr die = 1;
+if(randToss <= o.5) die = 0 // preset-else
