@@ -36,6 +36,7 @@ public class RepeatAdditionQuiz {
 
         }
         System.out.println("You got it !");
-        input.close();
+        
+    
     }
 }

@@ -15,6 +15,7 @@ public class SubtractionQuiz {
         System.out.println("Your answer is incorrect. " + (a-b) + " " + "is the right answer.");
 
     }
+    input.close();
 
    } 
 }

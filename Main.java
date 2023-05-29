@@ -8,6 +8,7 @@ public class Main {
     String password = acctPassword;
     double blance = acctBalance;
     System.out.println(password + blance);
+    System.out.println(Character.isLetter('d'));
 
   }
 }
